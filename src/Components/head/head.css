@@ -1,0 +1,85 @@
+.general{
+    background-image: url("../../image/icons/Group\ 2.svg");
+    background-repeat: no-repeat;
+  background-size: cover;
+    /* min-height: 900px; */
+    width: 100%;
+    /* overflow: hidden; */
+   
+}
+.margin{
+    margin-left: 140px;
+    margin-right:5% ;
+}
+.headerBar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+    /* width: 30%; */
+}
+.companyName{
+    display: flex;
+    align-items: center;
+    color: rgb(252, 252, 252);
+    font-size: 2rem;
+    
+    
+}
+.span{
+    font-weight: bold;
+}
+.menuBar{
+    display: flex;
+    align-items: center;
+    /* width: 70%; */
+}
+.navbar-nav li a {
+    color: white;
+}
+.navbar-nav li{
+    padding-left: 45px;
+}
+.secondPartHeader{
+padding-top: 116px;
+/* display: flex; */
+justify-content: space-between;
+}
+.textDiv{
+/* display: inline-block; */
+
+color: white;
+
+}
+.largeText{
+    font: normal normal normal 64px/83px Nunito;
+    opacity: 1;
+    font-size: 3rem;
+    padding-top: 76px;
+}
+.smallText{
+    padding-top: 45px;
+    font-size: 1.2rem;
+}
+.pictureDiv{
+/* display: inline-block; */
+
+color:white;
+
+}
+
+.learnMore{
+
+    text-decoration: none;
+    color: rgb(50, 82, 24);
+    font-size: 1.2rem;
+    
+}
+.href{
+    padding-top: 45px;
+}
+.logoImage{
+   display: inline-block;
+    width: 100%;
+    height: auto; 
+}

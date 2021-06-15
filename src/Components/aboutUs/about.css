@@ -1,0 +1,89 @@
+.about {
+  background-color: #f3f7fd;
+  /* height: 822px; */
+  width: 100%;
+}
+.mmargin{
+    margin-left: 140px;
+    margin-right:5% ;
+}
+
+.left_div {
+  display: flex;
+  align-items: center;
+}
+.right_div {
+  background-image: url("../../image/Image\ 16.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.gen-title {
+  max-width: 256px;
+  text-align: center;
+}
+.title {
+  font-size: 36px;
+}
+.boldd {
+  font-weight: 500;
+  font-size: 36px;
+}
+.medium_text {
+  max-width: 660px;
+  padding-top: 30px;
+  font-size: 24px;
+  opacity: 1;
+}
+.small_text {
+  max-width: 660px;
+  padding-top: 40px;
+  opacity: 1;
+}
+.div-block{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.squareBlue {
+    display: block;
+  text-align: center;
+  background: #3f51b5 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 5px #00000026;
+  border-radius: 20px;
+  background-color: #3f51b5;
+  max-width: 380px;
+  height: 316px;
+}
+
+.squareGreen {
+  text-align: center;
+  background: 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 5px #00000026;
+  border-radius: 20px;
+  max-width: 380px;
+  max-height: 316px;
+  background-color: #8bc34a;
+}
+.first{
+    top: 40px;
+}
+.iconStyle{
+    padding-top: 36px;
+}
+.button_text{
+    padding-top: 21px;
+    
+    font: normal normal normal 24px/36px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.button_largeText{
+    text-align: center;
+font: normal normal normal 16px/24px Nunito;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+    font-weight: 24px;
+    padding-top: 20px;
+}

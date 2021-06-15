@@ -1,0 +1,42 @@
+.name{
+    display: flex;
+    justify-content: center;
+}
+.our{
+    font-size: 2rem;
+}
+.Service{
+   font-weight: 500; 
+}
+.svg-div{
+    display: flex;
+    justify-content: center;
+    
+}
+.left-div{
+    background-image: url("../../image/green_ill.png");
+    background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+.right-div{
+    display: flex;
+    align-items: center;
+}
+.nameOfSection{
+    font-size: 20px;
+}
+.learn{
+    color: #8BC34A;
+}
+.icon-div{
+    display: inline-block;
+    width: 20%;
+}
+.text-div{
+display: inline-block;
+width: 70%;
+}
+.bold{
+    font-weight: 500;
+}
