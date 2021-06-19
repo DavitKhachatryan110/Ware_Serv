@@ -1,0 +1,74 @@
+.service-page {
+  background-image: url("../../image/service/Group\ 118.svg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  width: 100%;
+  color: white;
+  padding-left: 5.2%;
+  padding-right: 5%;
+  height: 1189px;
+}
+.bold-size {
+  font-weight: 600;
+}
+.service-page-title {
+  font-size: 64px;
+}
+.row{
+    align-items: center;
+}
+.right-move{
+    text-align: right;
+}
+.ware-section-right-move{
+    text-align: right;
+    padding-top: 45px;
+    padding-right: 20px;
+    
+    font: normal normal normal 16px/24px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+    max-width: 660px;
+    display: inline-block;
+}
+.ware-section {
+    padding-top: 45px;
+    padding-left: 20px;
+    text-align: left;
+    font: normal normal normal 16px/24px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+    max-width: 660px;
+    display: inline-block;
+  }
+.service-icon{
+    text-align: center;
+}
+.serv-img{
+
+}
+.service-page-text {
+  padding-top: 50px;
+  max-width: 660px;
+  font: normal normal normal 24px/36px Nunito;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.ll{
+    padding-right: 6%;
+}
+.title-ware {
+  /* display: grid; */
+  font: normal normal normal 36px/49px Nunito;
+}
+.service-span {
+  font-weight: 700;
+}
+.ware-section-learn {
+  padding-top: 40px;
+  color: #8bc34a;
+}
+.right {
+}

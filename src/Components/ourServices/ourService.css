@@ -22,7 +22,7 @@
 .right-div{
     display: flex;
     align-items: center;
-}
+} 
 .nameOfSection{
     font-size: 20px;
 }
@@ -35,7 +35,8 @@
 }
 .text-div{
 display: inline-block;
-width: 70%;
+width: 80%;
+padding-left: 15px;
 }
 .bold{
     font-weight: 500;

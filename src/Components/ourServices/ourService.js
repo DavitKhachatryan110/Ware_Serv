@@ -20,7 +20,7 @@ function OurService() {
         </div>
         <div className="row">
           <div className=" col-md-6 col-xs-6 col-sm-6  left-div" >
-            {/* <img src={logo1}  /> */}
+           
           </div>
           <div className=" col-md-6 col-xs-6 col-sm-6">
             <div className=" right-div">

@@ -1,0 +1,61 @@
+.footerone {
+  background: transparent url("../../image/icons/Mask\ Group\ 1.svg") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  background-color: #3f51b5;
+  background-size: contain;
+  height: 350px;
+  display: block;
+  text-align: -webkit-center;
+}
+.onefoot {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 130px;
+}
+.footone {
+  display: flex;
+  justify-content: space-between;
+  max-width: 760px;
+}
+.div1 {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.div2 {
+  max-width: 200px;
+}
+.div-foot {
+}
+.footersecond {
+  background-color: #303f9f;
+  height: 350px;
+  color: white;
+  text-align: center;
+}
+
+.div-foot {
+  color: white;
+  padding-top: 15px;
+}
+.div-foot1 {
+  padding-left: 50px;
+  font-size: 24px;
+}
+.div-foot-1{
+    font-size: 24px; 
+}
+.div-foot2 {
+  padding-top: 17px;
+}
+.div-foot-icon {
+  padding-top: 16px;
+}
+.icon {
+  margin-right: 10px;
+}
+.row{
+    
+    padding-top: 50px;
+}

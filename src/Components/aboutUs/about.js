@@ -33,8 +33,8 @@ function About() {
         </div>
       </div>
       <div className="col-md-6 col-xs-6 col-sm-6 right_div">
-          <div className="div-block">
-        <div className="squareBlue first">
+          <div className="div-block-one">
+        <div className="squareBlue ">
           <img src={svg30} className="iconStyle"/>
           <div className="button_text">Lorem ipsum dolor</div>
           <div className="button_largeText">
@@ -43,7 +43,7 @@ function About() {
             erat.
           </div>
         </div>
-        <div className="squareGreen">
+        <div className="squareGreen first">
           <img src={svg31}  className="iconStyle"/>
           <div className="button_text">Lorem ipsum dolor</div>
           <div className="button_largeText">
@@ -53,8 +53,8 @@ function About() {
           </div>
         </div>
         </div>
-        <div className="div-block">
-        <div className="squareGreen first ">
+        <div className="div-block-two">
+        <div className="squareGreen  ">
           <img src={svg32}   className="iconStyle"/>
           <div className="button_text">Lorem ipsum dolor</div>
           <div className="button_largeText">
@@ -63,7 +63,7 @@ function About() {
             erat.
           </div>
         </div>
-        <div className="squareBlue">
+        <div className="squareBlue first">
           <img src={svg33} className="iconStyle" />
           <div className="button_text">Lorem ipsum dolor</div>
           <div className="button_largeText">

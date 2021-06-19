@@ -1,0 +1,67 @@
+.contact-div {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 990px;
+  background: transparent url("../../image/icons/Group\ 81.svg") 0% 0% no-repeat
+    padding-box;
+  align-items: center;
+}
+.desk-div {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 10px #00000029;
+  border-radius: 67px;
+  opacity: 1;
+  width: 1020px;
+  height: 480px;
+  margin: auto;
+  justify-content: center;
+}
+.us {
+  font-size: 2rem;
+  padding-left: 14.5%;
+  
+}
+.line-div {
+  display: flex;
+  padding-left: 10%;
+}
+.contacPng {
+  /* background-image: url('../../image/Group56.png');
+    background-repeat: no-repeat;
+  background-size: cover;
+opacity: 1; */
+  direction: rtl;
+}
+.inputs{
+    padding-top: 13px;
+}
+
+.input,
+.inputtwo {
+  background: #f3f7fd 0% 0% no-repeat padding-box;
+  border: 1px solid #8bc34a;
+  border-radius: 35px;
+  opacity: 1;
+}
+
+.massege-div {
+  background: #f3f7fd 0% 0% no-repeat padding-box;
+  border: 1px solid #8bc34a;
+  border-radius: 37px;
+  opacity: 1;
+  height: 200px;
+  width: 430px;
+
+  
+}
+.subButton{border:none;
+    background: #8BC34A 0% 0% no-repeat padding-box;
+border-radius: 35px;
+opacity: 1;
+color: white;
+}
+.input , .inputtwo , .subButton{
+    height: 50px;
+    width: 430px;
+}

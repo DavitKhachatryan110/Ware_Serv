@@ -2,10 +2,13 @@
   background-color: #f3f7fd;
   /* height: 822px; */
   width: 100%;
+  padding-left: 5.2%;
+  margin-right: 5%;
 }
-.mmargin{
-    margin-left: 140px;
-    margin-right:5% ;
+
+.mmargin {
+  padding-left: 5.2%px;
+  
 }
 
 .left_div {
@@ -16,6 +19,8 @@
   background-image: url("../../image/Image\ 16.png");
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
+  justify-content: space-around;
 }
 .gen-title {
   max-width: 256px;
@@ -39,19 +44,24 @@
   padding-top: 40px;
   opacity: 1;
 }
-.div-block{
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-around;
+.div-block-one {
+  padding-top: 90px;
+  display: block;
+  justify-content: space-around;
+}
+.div-block-two {
+  padding-top: 50px;
+  display: block;
+  justify-content: space-around;
 }
 .squareBlue {
-    display: block;
+  display: block;
   text-align: center;
   background: #3f51b5 0% 0% no-repeat padding-box;
   box-shadow: 1px 1px 5px #00000026;
   border-radius: 20px;
   background-color: #3f51b5;
-  max-width: 380px;
+  max-width: 300px;
   height: 316px;
 }
 
@@ -60,30 +70,30 @@
   background: 0% 0% no-repeat padding-box;
   box-shadow: 1px 1px 5px #00000026;
   border-radius: 20px;
-  max-width: 380px;
-  max-height: 316px;
+  max-width: 300px;
+  height: 316px;
   background-color: #8bc34a;
 }
-.first{
-    top: 40px;
+.first {
+  margin-top: 40px;
 }
-.iconStyle{
-    padding-top: 36px;
+.iconStyle {
+  padding-top: 36px;
 }
-.button_text{
-    padding-top: 21px;
-    
-    font: normal normal normal 24px/36px Nunito;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+.button_text {
+  padding-top: 21px;
+
+  font: normal normal normal 24px/36px Nunito;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
-.button_largeText{
-    text-align: center;
-font: normal normal normal 16px/24px Nunito;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-    font-weight: 24px;
-    padding-top: 20px;
+.button_largeText {
+  text-align: center;
+  font: normal normal normal 16px/24px Nunito;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-weight: 24px;
+  padding-top: 20px;
 }
