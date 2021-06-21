@@ -2,6 +2,7 @@ import React from "react";
 import "./head.css";
 import Navbar from "../navbar/navbar";
 import logo from "../../image/green_pgot.png";
+
 function Header() {
   return (
     <section className="general">

@@ -1,6 +1,6 @@
 import React from "react"
 import '../head/head.css'
-
+import ServicesPage from "../servicePage/servicePage";
 function Navbar() {
 
     return(
@@ -19,17 +19,19 @@ function Navbar() {
               <div className=" navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                   <li className="nav-item dropdown">
-                    <a
+                    {/* <a
                       className="nav-link dropdown-toggle"
-                      href="#"
+                      href="services"
                       id="navbarDropdownMenuLink"
                       role="button"
                       data-toggle="dropdown"
                       aria-haspopup="true"
                       aria-expanded="false"
+                     onClick={}
                     >
                       Services
-                    </a>
+                    </a> */}
+                    <button><ServicesPage/> ssss</button>
                     <div
                       className="dropdown-menu"
                       aria-labelledby="navbarDropdownMenuLink"

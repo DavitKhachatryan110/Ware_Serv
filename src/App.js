@@ -10,13 +10,13 @@ import ServicesPage from './Components/servicePage/servicePage';
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
+      <Header/>
       <OurService/>
       <About/> 
       <ContactUs/>
       <FaQ/>
-      <FooterOne /> */}
-      <ServicesPage/>
+      <FooterOne />
+      {/* <ServicesPage/> */}
     </div>
   );
 }

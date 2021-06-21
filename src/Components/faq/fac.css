@@ -1,10 +1,12 @@
 .faqGenDiv{
  max-height: 540px;
     background-color: #F3F7FD;
+    display: contents;
 }
 .main{
     background-color: #F3F7FD;
     padding: 5% 21% 5% 15%;
+   
 }
 .tex-t{
     display: flex;
@@ -47,7 +49,7 @@ img{
     flex-direction: column;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    padding-top: 40px;
+    padding-top: 100px;
     height: 400px;
 }
 

@@ -134,8 +134,9 @@ function ServicesPage() {
           </div>
         </div>
       </div>
+      <div className="splitFooter">
       <FaQ/>
-      <FooterOne />
+      <FooterOne /></div>
     </div>
   );
 }
