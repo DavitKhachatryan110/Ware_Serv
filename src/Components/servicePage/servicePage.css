@@ -43,11 +43,11 @@
     display: inline-block;
   }
 .service-icon{
-    text-align: center;
+   text-align: -webkit-center;;
+    
 }
-.serv-img{
 
-}
+
 .service-page-text {
   padding-top: 50px;
   max-width: 660px;
@@ -76,4 +76,8 @@
 }
 .splitFooter{
   padding-top: 150px;
+}
+.div-image{
+  max-width: 575px;
+  max-height: 533px;
 }

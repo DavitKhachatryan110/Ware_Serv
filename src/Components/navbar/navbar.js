@@ -1,14 +1,25 @@
-import React from "react"
+import React , {useState} from "react"
 import '../head/head.css'
 import ServicesPage from "../servicePage/servicePage";
-function Navbar() {
+import {Link} from "react-router-dom"
 
+
+function Navbar() {
+const [open, setOpen] = useState()
+
+const handleProfileMenuOpen = (event) => {
+  setOpen(event.currentTarget);
+};
+
+const goService = () => {
+  return <ServicesPage/>
+};
     return(
         <div className="headerBar">
           <div className="companyName">
             <span className="span">Ware</span>Serv
           </div>
-          <div className="menuBar">
+          <div className="menuBar">  
       
             <nav className="navbar navbar-expand-lg  ">
             <div class="container-fluid">
@@ -19,19 +30,19 @@ function Navbar() {
               <div className=" navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                   <li className="nav-item dropdown">
-                    {/* <a
+                    <a
                       className="nav-link dropdown-toggle"
-                      href="services"
+                      href="dee"
                       id="navbarDropdownMenuLink"
                       role="button"
                       data-toggle="dropdown"
                       aria-haspopup="true"
-                      aria-expanded="false"
-                     onClick={}
+                      open={open}
+                     onClick={handleProfileMenuOpen}
                     >
                       Services
-                    </a> */}
-                    <button><ServicesPage/> ssss</button>
+                    </a>
+                  
                     <div
                       className="dropdown-menu"
                       aria-labelledby="navbarDropdownMenuLink"

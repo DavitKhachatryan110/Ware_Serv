@@ -34,9 +34,9 @@ function ServicesPage() {
       <div>
         <div className="row">
           <div className="col-md-6 col-xs-6 col-sm-6 col-lg-6	col-xl-6 service-icon">
-            <img src={Svg97} className="svg26s" />
+          <div className="div-image">  <img src={Svg97} className="svg26s" /></div>
           </div>
-          <div className="col-md-6 col-xs-6 col-sm-6 col-lg-6	col-xl-6 lll">
+          <div className="col-md-6 col-xs-6 col-sm-6 col-lg-6	col-xl-6 ">
             <div className="title-ware">
               <div>
                 <span className="service-span">Soft</span>Ware
@@ -96,14 +96,14 @@ function ServicesPage() {
             </div>
           </div>
           <div className="col-md-6 col-xs-6 col-sm-6 col-lg-6	col-xl-6 service-icon">
-            <img src={Svg96} className="svg26s" />
+          <div className="div-image"> <img src={Svg96} className="svg26s" /> </div>
           </div>
         </div>
       </div>
       <div>
         <div className="row">
           <div className="col-md-6 col-xs-6 col-sm-6 col-lg-6	col-xl-6 service-icon">
-            <img src={Svg98} className="svg26s" />
+           <div className="div-image"><img src={Svg98} className="svg26s" /></div> 
           </div>
           <div className="col-md-6 col-xs-6 col-sm-6 col-lg-6	col-xl-6 lll">
           <div className="title-ware">
